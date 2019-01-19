@@ -2,8 +2,8 @@ from InstagramAPI import InstagramAPI
 import numpy as np
 import time
 
-username = 'seveneightrecords'
-pwd = 'seveneightfamily'
+username = ''
+pwd = ''
 API = InstagramAPI(username,pwd)
 API.login()
 time.sleep(2)
